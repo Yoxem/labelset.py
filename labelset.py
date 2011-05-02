@@ -15,11 +15,6 @@ import os #used to detect the system information
 
 os_name = os.name #the type of operating system (posix, nt, and so on).
 
-'''change UTF-8 to Big5 by the type of OS (ie. windows xp, vista?, windows 7?).
-   to fix the encoding problem in the command line of windows.'''
-if os_name == 'nt': #windows xp, vista, nt,etc.
-    #-*-coding:big5-*-
-    pass
 
 '''funtcion to quit the program'''
 def quit():
