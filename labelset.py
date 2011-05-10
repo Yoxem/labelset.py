@@ -17,7 +17,7 @@ os_name = os.name #the type of operating system (posix, nt, and so on).
 
 
 '''funtcion to quit the program'''
-def quit():
+def quit_program():
         a = raw_input("請按 Enter 鍵繼續...")
         exit()
 
@@ -51,7 +51,7 @@ for i in range(len(raw_data_file)):
 			print "第 %d 行的資料不足或過多，請檢查資料內容是否正確。"\
 							  % (i + 1)
 			print line_splitted
-			quit()
+			quit_program()
 				
                 '''try to convert the distance to float'''
                 try:
@@ -60,7 +60,7 @@ for i in range(len(raw_data_file)):
 	       	#If the distance can't be floated, print the error.
 		except ValueError:
 			print "第 %d 行的距離（或其他成本）之資料錯誤！請檢查該資料是否有誤。" % (i + 1)
-			quit()
+			quit_program()
 		else:
 			raw_database.append(line_splitted) #append the line to the raw_database
 
@@ -300,4 +300,4 @@ else:
                 else:
                     print "找不到連絡的路徑！"
 
-quit()
+quit_program()
