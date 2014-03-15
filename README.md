@@ -1,7 +1,7 @@
 labelset.py
 ===========
 
-labelset.py, a programming uesd to demo label setting algorithm.
+labelset.py, a programming used to demo label setting algorithm.
 labelset.py，演示 label setting 之求最短路徑演算法程式。
 
 English 
