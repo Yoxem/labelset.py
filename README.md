@@ -22,6 +22,7 @@ use it legally.
 The repo of it was moved from http://tcirc.twbbs.org/~yoxem/script/labelset/ (Bazaar).
 
 Orig. written on 2011-04-22
+
 Translated & Updated on 2014-03-16
 
 Trad. Mandarin Chinese
@@ -44,4 +45,5 @@ Trad. Mandarin Chinese
 版本庫遷自：http://tcirc.twbbs.org/~yoxem/script/labelset/ (Bazaar).
 
 原作：2011-04-22
+
 修正：2014-03-16
