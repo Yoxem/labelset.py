@@ -2,13 +2,16 @@ labelset.py
 ===========
 
 labelset.py, a programming uesd to demo label setting algorithm.
+labelset.py，演示 label setting 之求最短路徑演算法程式。
 
-English
+English 
 ----------
 Programming Language: python(http://www.python.org)
 
 With py2exe, the executable which supports Windows XP at least file can be made.
-If you cannot execute it, please execute the script with  .
+If you cannot execute it, please execute the script with a Python interpreter.
+
+The script is a homework of class "Transportation Information" in a university.
 
 The script can be executed on any OS (eg. UNIX(-like), Windows, Mac OS X) with
 Python interpreter (Download site: http://www.python.org/getit/)
@@ -28,6 +31,8 @@ Trad. Mandarin Chinese
 
 使用py2exe產生 Windows 獨立執行檔，已知支援XP。如無法執行者，請依下段
 說明安裝python直譯器執行。
+
+本程式原為大學運輸資訊課的作業。
 
 本程式可在任何安裝 Python 直譯器(下載點 http://www.python.org/getit/)的
 作業系統執行（如 UNIX(-like)、Windows、Mac OS X）。
